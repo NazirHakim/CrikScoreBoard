@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     /**
      *  Display the Given score Of team A
      */
@@ -24,33 +23,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void onerun(View v){
         scoreTeamA = scoreTeamA + 1;
-
         displayForTeamA(scoreTeamA);
     }
 
     public void tworun(View v){
-
         scoreTeamA = scoreTeamA + 2;
-
         displayForTeamA(scoreTeamA);
-
     }
 
     public void threerun(View v){
         scoreTeamA = scoreTeamA + 3;
-
         displayForTeamA(scoreTeamA);
     }
 
     public void fourrun(View v){
         scoreTeamA = scoreTeamA + 4;
-
         displayForTeamA(scoreTeamA);
     }
 
     public void sixrun(View v){
         scoreTeamA = scoreTeamA + 6;
-
         displayForTeamA(scoreTeamA);
     }
 
@@ -64,33 +56,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void onerunb(View v){
         scoreTeamB = scoreTeamB + 1;
-
         displayForTeamB(scoreTeamB);
     }
 
     public void tworunb(View v){
-
         scoreTeamB = scoreTeamB + 2;
-
         displayForTeamB(scoreTeamB);
-
     }
 
     public void threerunb(View v){
         scoreTeamB = scoreTeamB + 3;
-
         displayForTeamB(scoreTeamB);
     }
 
     public void fourrunb(View v){
         scoreTeamB = scoreTeamB + 4;
-
         displayForTeamB(scoreTeamB);
     }
 
     public void sixrunb(View v){
         scoreTeamB = scoreTeamB + 6;
-
         displayForTeamB(scoreTeamB);
     }
  public void reset (View v){

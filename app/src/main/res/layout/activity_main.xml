@@ -20,62 +20,62 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:padding="7dp"
-                android:textSize="20sp"
-                android:shadowColor="#000000"
                 android:fontFamily="sans-serif"
-                android:text="Team A" />
+                android:padding="7dp"
+                android:shadowColor="#000000"
+                android:text="Team A"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:padding="7dp"
-                android:textSize="50sp"
-                android:textColor="#000000"
                 android:fontFamily="sans-serif"
-                android:text="0" />
+                android:padding="7dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="50sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:onClick="onerun"
-                android:background="#FF9800"
                 android:layout_margin="7dp"
+                android:layout_marginTop="20dp"
+                android:background="#7986CB"
+                android:onClick="onerun"
                 android:text="+ 1 Run" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="tworun"
-                android:background="#FF9800"
                 android:layout_margin="7dp"
+                android:background="#7986CB"
+                android:onClick="tworun"
                 android:text="+ 2 Runs" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
+                android:background="#7986CB"
                 android:onClick="threerun"
-                android:background="#FF9800"
                 android:text="+ 3 Runs" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
+                android:background="#7986CB"
                 android:onClick="fourrun"
-                android:background="#FF9800"
                 android:text="+ 4 Runs" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="sixrun"
                 android:layout_margin="7dp"
-                android:background="#FF9800"
+                android:background="#7986CB"
+                android:onClick="sixrun"
                 android:text="+ 6 Runs" />
 
 
@@ -91,68 +91,65 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
                 android:padding="7dp"
                 android:shadowColor="#000000"
-                android:fontFamily="sans-serif"
-                android:text="Team B" />
+                android:text="Team B"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
                 android:layout_width="wrap_content"
-                android:textSize="50sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:padding="7dp"
-                android:textColor="#000000"
                 android:fontFamily="sans-serif"
-                android:text="0" />
+                android:padding="7dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="50sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="7dp"
                 android:layout_marginTop="20dp"
-                android:background="#FF9800"
+                android:background="#7986CB"
                 android:onClick="onerunb"
                 android:text="+ 1 Run" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="tworunb"
                 android:layout_margin="7dp"
-                android:background="#FF9800"
+                android:background="#7986CB"
+                android:onClick="tworunb"
                 android:text="+ 2 Runs" />
 
             <Button
                 android:layout_width="match_parent"
-                android:background="#FF9800"
                 android:layout_height="wrap_content"
-                android:onClick="threerunb"
                 android:layout_margin="7dp"
+                android:background="#7986CB"
+                android:onClick="threerunb"
                 android:text="+ 3 Runs" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="fourrunb"
                 android:layout_margin="7dp"
-                android:background="#FF9800"
+                android:background="#7986CB"
+                android:onClick="fourrunb"
                 android:text="+ 4 Runs" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FF9800"
-                android:onClick="sixrunb"
                 android:layout_margin="7dp"
+                android:background="#7986CB"
+                android:onClick="sixrunb"
                 android:text="+ 6 Runs" />
-
-
         </LinearLayout>
-
 
     </LinearLayout>
 
@@ -162,8 +159,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="reset"
-        android:background="#FF9800"
         android:layout_marginBottom="10dp"
+        android:background="#7986CB"
+        android:onClick="reset"
         android:text="Reset" />
 </RelativeLayout>
